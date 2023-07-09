@@ -1,0 +1,8 @@
+uint j=0x7f;
+				for (i=0;i<6;i++)
+				{
+					j=_crol_(j,1);
+					P0=j;
+					delay(150);
+				}
+				break;
